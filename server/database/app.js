@@ -1,5 +1,6 @@
 /*jshint esversion: 8 */
 /*jshint esversion: 6 */
+/*jshint esversion: 8 */
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -36,7 +37,6 @@ try {
 
 
 // Express route to home
-/*jshint esversion: 8 */
 app.get('/', async (req, res) => {
     res.send("Welcome to the Mongoose API");
 });
