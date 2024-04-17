@@ -36,8 +36,9 @@ try {
 
 
 // Express route to home
+/*jshint esversion: 8 */
 app.get('/', async (req, res) => {
-    res.send("Welcome to the Mongoose API")
+    res.send("Welcome to the Mongoose API");
 });
 
 // Express route to fetch all reviews
